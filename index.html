@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <h1 class="bold">Welcome To My Simple webpage</h1>
+            <p class="bold p-first">Discover the Basics of HTML and CSS elements</p>
+        </section>
+        <section>
+            <h2>Contact</h2>
+        
+            <form action="action.php" method="post">
+                <label for="usern">Username>>></label>
+                <input type="text" name="username" id="usern" required>
+
+                <label for="pass">Password:</label>
+                <input type="password" name="password" id="pass" required>
+
+                <label for="count">Country:</label>
+                <select name="country" id="count" required>
+                    <option value="1">Amirica</option>
+                    <option value="2">United Kingdom</option> 
+                    <option value="3">Italic</option>
+                    <option value="4">Germany</option>         
+                </select>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="+970 5xxxxxxx" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="about">About:</label>
+                <textarea name="about" id="about" cols="5" rows="5" required></textarea>
+
+                <button type="submit">submit</button>
+            </form>
+        
+        </section>
+        <section>
+        
+        </section>
+        <section>
+            <h2>How To Make Website Using HTML And CSS | Create Website Header Design</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/10Z6UIe7R1E?si=I2IF99cvnV4mmPGz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="audio">
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="audio/aud.m4a" type="audio/mpeg">
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <div>
+        <p class="foo">&copy; 2025 My Semantic Page. All rights reserved</p>
+    </div>
+    </footer>
+</body>
+</html>
